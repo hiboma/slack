@@ -411,8 +411,7 @@ type Edited struct {
 
 // Icon is used for bot messages
 type Icon struct {
-	IconURL   string `json:"icon_url,omitempty"`
-	IconEmoji string `json:"icon_emoji,omitempty"`
+	Emoji string `json:"emoji,omitempty"`
 }
 
 // Item is any type of slack message - message, file, or file comment.
